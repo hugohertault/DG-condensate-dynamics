@@ -1,0 +1,20 @@
+====================================================================
+ Hertault condensate -- master equation, honest 1D integration
+====================================================================
+ d = 3, beta = 0.666667, alpha_* = 0.075026
+ Equation: phi_tt + gamma phi_t = c^2 phi_xx - m_eff^2 phi   (c=1)
+
+regime                                    w0     w_final    peak_final
+----------------------------------------------------------------------
+rho<rho_c  (dark energy, m2=+0.5)       2.50       50.13     1.704e-01
+rho=rho_c  (massless echo, m2=0)        2.50      140.03     5.000e-01
+rho>rho_c  (dark matter,  m2=-0.5)      2.50        5.00     2.931e+08
+
+ Interpretation (read off the measured numbers, not assumed):
+  rho<rho_c  (dark energy, m2=+0.5): width x 28.36, amp x1.704e-01  -> DISPERSES (width grows, amplitude decays)
+  rho=rho_c  (massless echo, m2=0)  : width x 79.21, amp x5.000e-01  -> FREE PROPAGATION (width grows ~linearly, amplitude ~steady)
+  rho>rho_c  (dark matter,  m2=-0.5): width x  2.83, amp x2.931e+08  -> LOCALISES + GROWS (tachyonic instability)
+
+ Note: absolute numbers depend on box size, dt and t_max; the
+ robust, setup-independent content is the SIGN of the behaviour
+ in each regime, which is what Criterion 2 actually claims.

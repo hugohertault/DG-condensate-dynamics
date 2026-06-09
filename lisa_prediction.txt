@@ -1,0 +1,30 @@
+====================================================================
+ Dark Geometry -- falsifiable decollapse-echo prediction
+====================================================================
+ d = 3   =>   inheritance exponent p = (d+1)/d = 1.333333
+ Lambda / M_Pl^4 = 1.0e-122
+
+ Derived (no fitting):
+   parent entropy   S_parent = 3.162e+91
+   parent mass      M_parent = 3.453e+37 kg = 1.736e+07 M_sun
+   resonant freq    f_res    = 1.861e-03 Hz
+   Hawking temp     T_H      = 3.554e-15 K
+
+ Confrontation with detectors:
+   LISA band [1e-04, 1e-01] Hz : INSIDE  <-- testable by LISA
+   LIGO band [1e+01, 1e+03] Hz : outside
+
+ Cross-check vs paper's quoted values:
+   M_parent : computed 1.74e+07 vs paper 1.7e+07 M_sun   (ratio 1.02)
+   f_res    : computed 1.86e-03 vs paper 2.0e-03 Hz   (ratio 0.93)
+
+ Sensitivity to the exponent (why p=4/3 is the physical one):
+   reading                      p     M_parent [Msun]    f_res [Hz]      band
+   boundary (area)         1.0000           3.087e+22     1.046e-18   neither
+   conformal (axiom)       1.3333           1.736e+07     1.861e-03      LISA
+   naive bulk              1.5000           1.433e+02     2.255e+02      LIGO
+
+ The conformal exponent p=4/3 is the one selected by the bulk-
+ filling dynamics (Criterion 2). This script shows it is also the
+ one whose echo lands in LISA -- a falsifiable, not fitted, result.
+====================================================================
